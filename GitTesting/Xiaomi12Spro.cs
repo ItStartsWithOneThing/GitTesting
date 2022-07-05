@@ -12,5 +12,10 @@ namespace GitTesting
         {
             Console.WriteLine("Calling...");
         }
+
+        public void GetWifi(int password)
+        {
+            Console.WriteLine("Connecting...");
+        }
     }
 }
