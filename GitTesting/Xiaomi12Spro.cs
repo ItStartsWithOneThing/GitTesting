@@ -17,5 +17,10 @@ namespace GitTesting
         {
             Console.WriteLine("Connecting...");
         }
+
+        public void ReceiveCall(string name)
+        {
+            Console.WriteLine("Receiving...");
+        }
     }
 }
